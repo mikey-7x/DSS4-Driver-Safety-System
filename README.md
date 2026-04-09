@@ -88,7 +88,7 @@ This project isolates its dependencies in a virtual environment to prevent versi
    ```
 ## 🚀 Running the System
 ### Configuration
-Open dss_cockpit.py and verify your hardware ports:
+Open dss4.py and verify your hardware ports:
 ```python
 COM_PORT = "COM3"  # Check Windows Device Manager for CH9102 port
 BAUD_RATE = 9600
