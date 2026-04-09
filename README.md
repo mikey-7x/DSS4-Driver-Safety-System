@@ -31,8 +31,10 @@ When the system detects the driver falling asleep, an ATmega32A microcontroller 
 
 > **Note:** The layout is highly optimized, keeping all primary control lines grouped on the ATmega32A's `PORTD` register for clean breadboard routing.
 
-![Circuit Diagram](insert_image_link_here.jpg)
-*(Upload your circuit diagram to the repo and replace the link above)*
+![Circuit Diagram](dss4.jpg)
+
+![physical circuit](dss4_1.jpg)
+
 
 **ATmega32A Pin Mapping (MightyCore Standard):**
 * `Pin 15 (PD7)` ➔ DC Motor (via BC547 Base resistor) - *True Hardware PWM*
