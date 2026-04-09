@@ -22,7 +22,7 @@ When the system detects the driver falling asleep, an ATmega32A microcontroller 
 * **Microcontroller:** Bare ATmega32A (running external 16MHz Crystal).
 * **Programmer:** USBasp (for flashing MightyCore bootloader).
 * **Serial Interface:** CH9102 USB-to-TTL Converter.
-* **Actuators:** SG90 Servo Motor (Steering), DC Motor driven by BC547 Transistor (Wheels).
+* **Actuators:** SG90 Servo Motor (Steering), DC Motor driven by TIP122 Transistor (Wheels).
 * **Sensors:** 3x IR Proximity Sensors, 5V Active Buzzer, Push Button.
 
 ---
@@ -37,7 +37,7 @@ When the system detects the driver falling asleep, an ATmega32A microcontroller 
 
 
 **ATmega32A Pin Mapping (MightyCore Standard):**
-* `Pin 15 (PD7)` ➔ DC Motor (via BC547 Base resistor) - *True Hardware PWM*
+* `Pin 15 (PD7)` ➔ DC Motor (via TIP122 Base resistor) - *True Hardware PWM*
 * `Pin 3 (PB3)`  ➔ SG90 Servo Motor (Signal/Yellow wire)
 * `Pin 10 (PD2)` ➔ Center IR Sensor (Controls Braking/Speed)
 * `Pin 11 (PD3)` ➔ Buzzer (+) (Wake-up Alarm)
