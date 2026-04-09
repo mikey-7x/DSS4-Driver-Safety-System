@@ -1,0 +1,4 @@
+opencv-python==4.9.0.80
+pyserial==3.5
+flask==3.0.2
+mediapipe==0.10.9
