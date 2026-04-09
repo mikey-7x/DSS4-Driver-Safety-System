@@ -68,7 +68,7 @@ This project isolates its dependencies in a virtual environment to prevent versi
 
 1. Clone the repository:
 ```bash
-   git clone [https://github.com/mikey-7x/DSS4-Driver-Safety-System.git](https://github.com/mikey-7x/DSS4-Driver-Safety-System.git)
+   git clone https://github.com/mikey-7x/DSS4-Driver-Safety-System.git
    cd DSS4-Driver-Safety-System
 ```
  2. Create and activate a virtual environment:
