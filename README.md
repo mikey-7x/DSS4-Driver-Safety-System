@@ -77,7 +77,6 @@ This project isolates its dependencies in a virtual environment to prevent versi
      python -m venv .venv
      .\.venv\Scripts\activate
      ```
-     ```
    * **Linux/macOS:**
      ```bash
      python3 -m venv .venv
