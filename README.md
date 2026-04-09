@@ -110,7 +110,7 @@ camera_source = 0  # '0' for internal laptop webcam, or use an IP Webcam URL
  * **AttributeError: module 'mediapipe' has no attribute 'solutions':** You have a modern, incompatible version of MediaPipe. You *must* install mediapipe==0.10.9 as defined in the requirements.
  * **Motor doesn't spin / Chip Restarts:** Ensure you are using the Soft-Start C++ logic. If the motor still stalls, your BC547 transistor may be thermally overloaded (max 100mA). Upgrade to a TIP120 or L298N module.
 ## 👨‍💻 Author
-**Mikey-7x** * GitHub: @mikey-7x
+**Mikey-7x** * GitHub: [@mikey-7x](https://github.com/mikey-7x)
  * Profile: Practical Electronics Engineer specializing in Analog Design, High-Power Circuitry, and Microcontroller/AI Integration.
 ## 📄 License
 This project is open-source and available under the MIT License.
