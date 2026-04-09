@@ -98,7 +98,7 @@ camera_source = 0  # '0' for internal laptop webcam, or use an IP Webcam URL
  1. Connect the **CH9102** to your laptop (Ensure TX ➔ RX crossover).
  2. Run the Python server:
    ```powershell
-   python dss_cockpit.py
+   python dss4.py
    ```
  3. Open a modern web browser to: http://127.0.0.1:5000
 ### 🎮 Dashboard Operation
